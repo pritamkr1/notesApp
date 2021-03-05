@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --body-color: rgba(0, 0, 0, 0.26);
+    --main-body: #fff;
+}
+nav{
+    background-color: rgb(3, 23, 59);
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+body{
+    background-color: var(--body-color);
+    height: 100vh;
+   
+}
+
+.myNote{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.103);;
+    margin: 10px 20px;
+}
+.tools{
+    width: 100%;
+    background-color: rgb(3, 23, 59);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+.tools i { 
+    margin: 0 10px;
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+}
+.myNote .hidden{
+    display: none;
+    width: 100%;
+    height: 300px;
+}
+.main{
+    width: 100%;
+    height: 300px;
+    background-color: var(--main-body);
+}
+
+.text-area{
+    background-color: ;
+    width: 100%;
+    height: 300px;
+    border: none;
+    outline: 0;
+}
